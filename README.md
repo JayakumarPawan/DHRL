@@ -40,4 +40,3 @@ Test results are where graphs and such are stored
 #### Acknowledgements:
 I would like to thank Petros Christodoulou for his soft actor critic implementation and Dr.White for his guidance without which would have made this project more difficult. 
 https://github.com/p-christ/Deep-Reinforcement-Learning-Algorithms-with-PyTorch
-### GIFS of some solved environments(Work in Progress)
