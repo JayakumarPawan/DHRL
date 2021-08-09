@@ -10,14 +10,19 @@ Scaling this seemingly recursive design to three levels or more introduces more 
 This project explores how options for  HRL can be formed by adapting the [Diversity Is All You Need (DIAYN)](https://arxiv.org/abs/1802.06070) algorithm to a n level hierarchy. DIAYN is an option discovery method which uses entropy maximization and mutual information bewteen options and the states they visit to force options which are all equally effective and as diverse as possible. Since these options were discovered without the task being known, they can also be re-used for multiple tasks.
 My goal with this project is to adapt DIAYN and hopefully show that it is able to learn a hierarchy which can solve 3 ATARI ram environments simultaneously better than existing algorithms.
 
+### Project Conclusion
+This project was abandoned as newer algorithms have come out such as [lwf](https://arxiv.org/abs/1606.09282) and [ewc](https://arxiv.org/pdf/1612.00796.pdf) that solve this task much more efficiently. DHRL is hard to implement and many problems do not require a complex solution. Still, I believe a hierarchical structure is required for general inteligence.
+
 ### Requirements 
 1. Miniconda or Anaconda
 2. CUDA compatible GPU
+3. Python 3.7
+4. Linux OS 
 
 ### Run instructions (Work in Progress)
-Open a terminal within the repository.
-create a conda env
-pip3 install -r requirements.txt
+-Open a terminal within the repository.
+-create a conda env
+-pip3 install -r requirements.txt
 Train command:
 Test pre-trained model:
 ### Description of each folder:
